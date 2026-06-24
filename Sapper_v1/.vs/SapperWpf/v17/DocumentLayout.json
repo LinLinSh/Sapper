@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD1FEB2-9CC1-4374-AFA9-98BD295B27AD}|SapperWpf\\SapperWpf.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\desktop\\\u043B\u0430\u0431\u044B\\proga\\sapperwpf\\sapperwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4BD1FEB2-9CC1-4374-AFA9-98BD295B27AD}|SapperWpf\\SapperWpf.csproj|solutionrelative:sapperwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD1FEB2-9CC1-4374-AFA9-98BD295B27AD}|SapperWpf\\SapperWpf.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\desktop\\\u043B\u0430\u0431\u044B\\proga\\sapperwpf\\sapperwpf\\cellbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD1FEB2-9CC1-4374-AFA9-98BD295B27AD}|SapperWpf\\SapperWpf.csproj|solutionrelative:sapperwpf\\cellbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD1FEB2-9CC1-4374-AFA9-98BD295B27AD}|SapperWpf\\SapperWpf.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\desktop\\\u043B\u0430\u0431\u044B\\proga\\sapperwpf\\sapperwpf\\game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD1FEB2-9CC1-4374-AFA9-98BD295B27AD}|SapperWpf\\SapperWpf.csproj|solutionrelative:sapperwpf\\game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD1FEB2-9CC1-4374-AFA9-98BD295B27AD}|SapperWpf\\SapperWpf.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\desktop\\\u043B\u0430\u0431\u044B\\proga\\sapperwpf\\sapperwpf\\cell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD1FEB2-9CC1-4374-AFA9-98BD295B27AD}|SapperWpf\\SapperWpf.csproj|solutionrelative:sapperwpf\\cell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD1FEB2-9CC1-4374-AFA9-98BD295B27AD}|SapperWpf\\SapperWpf.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\desktop\\\u043B\u0430\u0431\u044B\\proga\\sapperwpf\\sapperwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD1FEB2-9CC1-4374-AFA9-98BD295B27AD}|SapperWpf\\SapperWpf.csproj|solutionrelative:sapperwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CellButton.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\SapperWpf\\CellButton.xaml.cs",
+              "RelativeDocumentMoniker": "SapperWpf\\CellButton.xaml.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\SapperWpf\\CellButton.xaml.cs",
+              "RelativeToolTip": "SapperWpf\\CellButton.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:27:46.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\SapperWpf\\Game.xaml.cs",
+              "RelativeDocumentMoniker": "SapperWpf\\Game.xaml.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\SapperWpf\\Game.xaml.cs",
+              "RelativeToolTip": "SapperWpf\\Game.xaml.cs",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAiwAMBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:27:27.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\SapperWpf\\Cell.xaml.cs",
+              "RelativeDocumentMoniker": "SapperWpf\\Cell.xaml.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\SapperWpf\\Cell.xaml.cs",
+              "RelativeToolTip": "SapperWpf\\Cell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:25:02.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\SapperWpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SapperWpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\SapperWpf\\MainWindow.xaml*",
+              "RelativeToolTip": "SapperWpf\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T18:19:56.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\SapperWpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SapperWpf\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\Desktop\\\u041B\u0430\u0431\u044B\\Proga\\SapperWpf\\SapperWpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SapperWpf\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:19:51.855Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

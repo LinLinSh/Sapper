@@ -1,0 +1,29 @@
+﻿<Window x:Class="SapperWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SapperWpf"
+        mc:Ignorable="d"
+         Title="Сапер: Поиск пути" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <Button Content="Легкий" Click="OnEasyClick" Margin="5"/>
+            <Button Content="Средний" Click="OnMediumClick" Margin="5"/>
+            <Button Content="Тяжелый" Click="OnHardClick" Margin="5"/>
+            <Button Name="GiveUpButton" Content="Сдаться" Click="OnGiveUpClick" Margin="5" Visibility="Collapsed"/>
+        </StackPanel>
+
+        <UniformGrid Name="BoardGrid" Grid.Row="1" Margin="10"/>
+
+        <StatusBar Grid.Row="2">
+            <TextBlock Name="StatusText" Text="Выберите уровень сложности" VerticalAlignment="Center" Margin="5"/>
+        </StatusBar>
+    </Grid>
+</Window>
