@@ -1,0 +1,60 @@
+﻿<Window x:Class="Saper.MainWindow"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Saper"
+        mc:Ignorable="d"
+        Title="Сапёр"
+        WindowState="Maximized"
+        Width="Auto" Height="Auto"
+        ResizeMode="NoResize"
+        WindowStyle="SingleBorderWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+            <ComboBox x:Name="DifficultyComboBox" Width="150" Margin="5">
+                <ComboBoxItem>Лёгкий (10x10)</ComboBoxItem>
+                <ComboBoxItem>Средний (15x15)</ComboBoxItem>
+                <ComboBoxItem>Сложный (20x20)</ComboBoxItem>
+            </ComboBox>
+            <Label x:Name="ScoreLabel" Content="Очки: 0" Margin="5" Visibility="Hidden"/>
+            <Label x:Name="LivesLabel" Content="❤️❤️❤️" Margin="5"/>
+            <Button x:Name="StartButton" Content="Начать игру" Margin="5"/>
+            <Button x:Name="SurrenderButton" Content="Сдаться" Margin="5"/>
+            <Button x:Name="EndGameButton" Content="Закончить игру" Margin="5" Visibility="Hidden"/>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <TextBlock x:Name="RulesTextBlock" Margin="10" TextWrapping="Wrap" FontSize="14" Visibility="Visible">
+                <Run FontWeight="Bold">Привет, добро пожаловать в нового сапёра! :)</Run>
+                <LineBreak/><LineBreak/>
+                <Run FontWeight="Bold">Вот несколько правил, прочитай их перед началом игры:</Run>
+                <LineBreak/>
+                <Run>• Игра начинается с первой строки, где ты можешь открывать клетки (ЛКМ).</Run><LineBreak/>
+                <Run>• Открытые клетки окрашиваются в розовый, жёлтый или светло-зелёный цвет в зависимости от расположения бомб:</Run><LineBreak/>
+                <Run>- Розовый: если бомба находится ниже.</Run><LineBreak/>
+                <Run>- Жёлтый: если бомба находится слева или справа.</Run><LineBreak/>
+                <Run>- Розово-жёлтый: если бомбы есть и ниже, и сбоку.</Run><LineBreak/>
+                <Run>- Светло-зелёный: если поблизости нет бомб.</Run><LineBreak/>
+                <Run>• От окрашенных клеток (розовых, жёлтых, светло-зелёных) можно открывать соседние клетки только в трёх направлениях: слева, спереди (вниз) или сзади (вправо).</Run><LineBreak/>
+                <Run>• Если ты открываешь клетку с бомбой, она становится светло-коралловой с символом 💣, и ты теряешь одно сердечко. У тебя есть 3 сердечка: ❤️❤️❤️.</Run><LineBreak/>
+                <Run>• Если все сердечки потеряны, игра завершается, и ты проигрываешь.</Run><LineBreak/>
+                <Run>• Цель игры — добраться до последней строки, чтобы найти выход. Как только ты достигнешь последней строки, ты сможешь завершить игру.</Run><LineBreak/>
+                <Run>• ПКМ позволяет ставить или убирать флажок на клетках, доступных слева, спереди или сзади от окрашенных клеток. Флажки блокируют клетки, и на них нельзя наступить.</Run><LineBreak/>
+                <Run>• За каждую бомбу ты получаешь 1 очко (на лёгком уровне), 10 очков (на среднем) или 100 очков (на сложном).</Run><LineBreak/>
+                <Run>• За правильный флажок на бомбе: +100 очков (умножается на уровень сложности).</Run><LineBreak/>
+                <Run>• За неправильный флажок: -30 очков (умножается на уровень сложности).</Run><LineBreak/>
+                <Run>• За достижение выхода: +1000 очков.</Run><LineBreak/>
+                <Run>• Кнопка "Сдаться" активна, пока ты не нашёл выход. Она завершает игру и показывает очки.</Run><LineBreak/>
+                <Run>• Кнопка "Закончить игру" появляется, когда ты нашёл хотя бы один выход. Она завершает игру и показывает очки.</Run><LineBreak/>
+                <Run>• Очки отображаются только после завершения игры.</Run><LineBreak/>
+            </TextBlock>
+            <Border x:Name="GameBorder" Width="800" Height="800" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="Black" BorderThickness="1" Visibility="Hidden">
+                <Grid x:Name="GameGrid" Visibility="Hidden"/>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
